@@ -1,4 +1,9 @@
-/* You can delete / re-write this img class  */
+:root {
+    --light: #e7eaf6;
+    --medium-light: #a2a8d3;
+    --medium-dark: #38598b;
+    --dark: #113f67;
+}
 
 img {
     max-width: 200px;
@@ -11,4 +16,7 @@ h1 {
     font-size: 2.5rem;
 }
 
-/* Happy coding! */
+body {
+    background-color: var(--medium-dark);
+    color: var(--light);
+}
