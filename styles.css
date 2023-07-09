@@ -5,8 +5,9 @@
     --dark: #113f67;
 }
 
-img {
-    max-width: 200px;
+body {
+    background-color: var(--medium-dark);
+    color: var(--light);
 }
 
 h1 {
@@ -16,7 +17,6 @@ h1 {
     font-size: 2.5rem;
 }
 
-body {
-    background-color: var(--medium-dark);
-    color: var(--light);
+img {
+    max-width: 200px;
 }
