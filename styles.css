@@ -1,12 +1,11 @@
 :root {
     --light: #e7eaf6;
-    --medium-light: #a2a8d3;
-    --medium-dark: #38598b;
-    --dark: #113f67;
+    --green: #a2c11c;
+    --dark: #283739;
 }
 
 body {
-    background-color: var(--medium-dark);
+    background-image: url("images/space.jpeg");
     color: var(--light);
 }
 
@@ -39,5 +38,5 @@ img {
 }
 
 .light {
-    background-color: var(--dark);
+    background-color: var(--green);
 }
