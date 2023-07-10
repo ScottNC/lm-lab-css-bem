@@ -2,6 +2,8 @@
     --light: #e7eaf6;
     --green: #a2c11c;
     --dark: #283739;
+
+    --card-width: 250px;
 }
 
 body {
@@ -32,6 +34,8 @@ h1 {
     border-style: solid;
     border-color: var(--light);
     border-radius: 1rem;
+
+    max-width: var(--card-width);
 }
 
 .dark {
@@ -48,5 +52,5 @@ h1 {
 }
 
 .card__img {
-    max-width: 200px;
+    max-width: var(--card-width);
 }
