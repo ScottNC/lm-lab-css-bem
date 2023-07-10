@@ -54,3 +54,14 @@ h1 {
 .card__img {
     max-width: var(--card-width);
 }
+
+.card__text--first {
+    text-transform: uppercase;
+    animation: 2s flip ease infinite;
+}
+
+@keyframes flip {
+    50% {
+        transform: rotateX(360deg);
+    }
+}
