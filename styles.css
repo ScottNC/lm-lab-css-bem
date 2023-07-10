@@ -4,6 +4,7 @@
     --dark: #283739;
 
     --card-width: 250px;
+    --image-height: 175px;
 }
 
 @font-face {
@@ -63,7 +64,8 @@ h1 {
 }
 
 .card__img {
-    max-width: var(--card-width);
+    width: var(--card-width);
+    height: var(--image-height);
 }
 
 .card__text--first {
