@@ -65,3 +65,7 @@ h1 {
         transform: rotateX(360deg);
     }
 }
+
+.card__text--second {
+    text-transform: capitalize;
+}
