@@ -6,6 +6,11 @@
     --card-width: 250px;
 }
 
+@font-face {
+    font-family: 'Tangerine';
+    src: url('./fonts/Tangerine-Regular.ttf'),
+}
+
 body {
     background-image: url("images/space.jpeg");
     color: var(--light);
@@ -26,9 +31,14 @@ h1 {
 }
 
 .card {
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 0px;
+
     margin: 20px;
 
     border-style: solid;
@@ -66,6 +76,10 @@ h1 {
     }
 }
 
-.card__text--second {
-    text-transform: capitalize;
+.card__text--sign {
+    align-self: center;
+    font-size: 2rem;
+    font-family: 'Tangerine', cursive;
+    font-style: italic;
+    font-weight: 300;
 }
